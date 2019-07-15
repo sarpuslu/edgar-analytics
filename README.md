@@ -36,9 +36,9 @@ Once the log entries are sessionized they should be stored in the following form
 ## How to run this script
 Pass input files log.csv and inactivity_period as command line arguments. The sessionized entries will be written in output.txt.
 
-'''
+```
 python3 ./src/sessionization.py ./input/log.csv ./input/inactivity_period.txt ./output/output.txt
-'''
+```
 
 
 
